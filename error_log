@@ -1,0 +1,2 @@
+[20-Feb-2015 10:20:54 America/Chicago] PHP Fatal error:  Call to undefined method WhatsProt::Message() in /home1/njabang/public_html/enaijize.com/whatsapp/v2/index.php on line 14
+[20-Feb-2015 12:21:08 America/Chicago] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/njabang/public_html/enaijize.com/whatsapp/v2/whatsapp_events.php on line 7
