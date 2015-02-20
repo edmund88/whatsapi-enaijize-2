@@ -5,9 +5,9 @@
 		$body = strtoupper($body);
 		
 		$dbservername = "us-cdbr-iron-east-01.cleardb.net";
-		$dbusername = "bcdca4bcfe9366";
-		$dbpassword = "bfc05937";
-		$dbname = "heroku_555506e4f7e7997";
+		$dbusername = "b10de5ada49e20";
+		$dbpassword = "ea88f234";
+		$dbname = "heroku_3d91432389d0eb8";
 
 		$conn = new mysqli($dbservername, $dbusername, $dbpassword, $dbname);
 
