@@ -7,7 +7,7 @@
 <div class="panel panel-default">
   <div class="panel-heading">Console</div>
   <div class="panel-body jumbotron">
-		<?php	
+  <?php	
 		require_once('src/whatsprot.class.php');
 		require_once('whatsapp_config.php');
 		require_once('whatsapp_events.php');
@@ -23,9 +23,9 @@
  
 		echo "<b>Connecting to database...</b>";
 		$dbservername = "us-cdbr-iron-east-01.cleardb.net";
-		$dbusername = "bcdca4bcfe9366";
-		$dbpassword = "bfc05937";
-		$dbname = "heroku_555506e4f7e7997";
+		$dbusername = "b10de5ada49e20";
+		$dbpassword = "ea88f234";
+		$dbname = "heroku_3d91432389d0eb8";
 		$conn = new mysqli($dbservername, $dbusername, $dbpassword, $dbname);
 
 		if ($conn->connect_error) {
@@ -64,7 +64,7 @@
 			}
 		}
 
-		?>
+	?>
   </div>
 </div>
 </body>
